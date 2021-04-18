@@ -1,0 +1,25 @@
+.outstanding .carousel-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    width: 100%;
+}
+
+
+/* OutStanding Card */
+
+.outstanding-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .5rem;
+    padding: 1rem;
+}
+
+
+/* Banner */
+
+.home__banner img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}

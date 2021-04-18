@@ -1,0 +1,53 @@
+.header {
+    padding: 1rem .8rem .5rem .8rem;
+    background-color: #001428;
+    color: #fff;
+}
+
+.header__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.Header__menu {
+    font-size: 2.2rem;
+}
+
+.header-logo {
+    max-width: 100%;
+    height: auto;
+    width: 8rem;
+    object-fit: cover;
+    margin-right: 3rem;
+}
+
+.header__right svg {
+    font-size: 1.6rem;
+    margin-left: 1rem;
+    color: #fff;
+}
+
+.header__search {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: .3rem .8rem;
+    border-radius: 4px;
+}
+
+.header__bottom input {
+    border: none;
+    width: 95%;
+}
+
+.header__bottom input:focus {
+    outline: none;
+}
+
+.header__bottom-search-icon {
+    color: #000;
+    font-size: 1.5rem;
+}

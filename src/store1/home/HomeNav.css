@@ -1,0 +1,23 @@
+.home-top {
+    background-color: #d7d7d8;
+    overflow: hidden;
+}
+
+.home__nav-links {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.home-top ::-webkit-scrollbar {
+    background-color: transparent;
+}
+
+.home__nav-links .nav-link {
+    color: #222;
+    border-right: .01rem solid #b1b1b1;
+    background-color: #f8f8f8;
+    font-size: .9rem;
+    display: flex;
+    text-align: center;
+}

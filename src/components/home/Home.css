@@ -1,0 +1,163 @@
+/* Home */
+
+.home {
+    background-color: #001428;
+    color: #fff;
+}
+
+.carousel-item img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.home .carousel-indicators {
+    margin-bottom: -2rem;
+}
+
+.carousel-indicators button {
+    border-radius: 1rem;
+    background-color: transparent !important;
+    border: 1.5px solid #fff !important;
+}
+
+.carousel-indicators button.active {
+    background-color: #fff !important;
+}
+
+
+/* Offert */
+
+.offert {
+    color: #fff;
+    padding: 3rem 1.2rem 2rem;
+}
+
+.offer__title {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.offert__carousel .carousel-indicators {
+    margin-bottom: 0;
+}
+
+.offer__title span {
+    color: red;
+}
+
+.offert .carousel-control-prev {
+    justify-content: flex-start;
+}
+
+.offert .carousel-control-next {
+    justify-content: flex-end;
+}
+
+.offert .carousel-inner {
+    padding: 2rem 6rem;
+}
+
+.offert__details {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-weight: 300;
+    padding: 0 1rem;
+}
+
+.offert__details span:nth-of-type(1) {
+    font-size: .9rem;
+    letter-spacing: .03rem;
+}
+
+.offert__details span:nth-of-type(1) {
+    color: #92c1e9;
+}
+
+.offert__details span:nth-child(3) {
+    font-size: .8rem;
+    text-decoration: line-through;
+    margin-top: .8rem;
+}
+
+.offert__details.hiden-span span {
+    color: red;
+    visibility: hidden;
+}
+
+.offert .carousel-item .offert__btn-wrapper {
+    margin-top: 1rem;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.offert__btn-wrapper button {
+    background-color: #c52920;
+    color: #FFF;
+    border: #c52929;
+    padding: .2rem 0;
+    border-radius: 4px;
+    width: 100%;
+}
+
+
+/* Home Category */
+
+.category {
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.category__title {
+    text-transform: uppercase;
+}
+
+.category__title span {
+    color: red;
+}
+
+.category__tab-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 1.5rem;
+    margin-top: 2rem;
+}
+
+.category__tab-title li button {
+    color: #fff;
+}
+
+.nav-link.active {
+    color: red !important;
+    border-bottom: 1px solid red !important;
+    padding: .1rem;
+    background-color: transparent !important;
+    border: none;
+}
+
+.nav-link.active:hover {
+    border-bottom: 1px solid red !important;
+}
+
+#categoryTab {
+    border-bottom: none;
+}
+
+.nav-link {
+    border: none;
+}
+
+.nav-link:hover {
+    border: transparent !important;
+}
+
+.category-props .offert__btn-wrapper {
+    margin-top: 1rem;
+}
